@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate  } from "react-router-dom";
-import LoginLayout from "@/layout/Login";
+import LoginLayout from "@/pages/Login";
 import Home from "@/pages/Home";
+import "@/assets/styles/main.css";
+import "@/assets/styles/responsive.css";
 
 export default function App() {
   return (
